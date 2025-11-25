@@ -5,8 +5,9 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline'
 export default function Home() {
   return (
     <>
-      <section className="relative pt-24 sm:pt-32 pb-12 sm:pb-20 min-h-[500px] sm:min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden">
-        <div className="absolute inset-0 z-0">
+      <section className="relative pt-24 sm:pt-32 pb-12 sm:pb-20 min-h-[500px] sm:min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden bg-gray-900">
+        <div className="absolute inset-0 z-0 w-full h-full hero-image-container">
+          <div className="absolute inset-0 bg-gray-800"></div>
           <Image
             src="/edenfood-profile.jpg"
             alt="EDEN FOOD - Restaurant à Cotonou"
