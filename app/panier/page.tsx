@@ -132,6 +132,8 @@ export default function CartPage() {
                         fill
                         className="object-cover"
                         sizes="(max-width: 640px) 100vw, 96px"
+                        quality={70}
+                        loading="lazy"
                       />
                     </div>
                   )}

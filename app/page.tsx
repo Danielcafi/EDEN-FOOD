@@ -15,7 +15,7 @@ export default function Home() {
             className="object-cover"
             style={{ objectPosition: 'center 20%' }}
             priority
-            quality={90}
+            quality={75}
             sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/50"></div>
@@ -64,6 +64,8 @@ export default function Home() {
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  quality={75}
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-black/10"></div>
               </div>
@@ -83,6 +85,8 @@ export default function Home() {
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  quality={75}
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-black/10"></div>
               </div>
@@ -102,6 +106,8 @@ export default function Home() {
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  quality={75}
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-black/10"></div>
               </div>
