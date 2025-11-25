@@ -63,7 +63,7 @@ export default function Footer() {
             </ul>
             <div className="mt-4 pt-4 border-t border-gray-800">
               <p className="text-xs text-gray-400 italic">
-                Eden Store & Eden Food.... Originalité 😍, Exclusivité 🥳, Élégance 🥺
+                Eden Store & Eden Food.... Originalité, Exclusivité, Élégance
               </p>
             </div>
           </div>

@@ -32,7 +32,7 @@ export default function Home() {
               À Cotonou, Bénin
             </p>
             <p className="text-base sm:text-lg md:text-xl text-white/95 mb-8 sm:mb-10 md:mb-12 drop-shadow-md font-medium">
-              Originalité 😍, Exclusivité 🥳, Élégance 🥺
+              Originalité, Exclusivité, Élégance
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4">
               <Link href="/menu" className="w-full sm:w-auto btn-primary bg-white text-primary-600 hover:bg-gray-100 border-white text-sm sm:text-base px-4 sm:px-6 py-2.5 sm:py-3">
