@@ -28,8 +28,11 @@ export default function Home() {
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white mb-4 sm:mb-6 md:mb-8 leading-relaxed drop-shadow-md px-2">
               Votre restaurant préféré pour vous délecter de délicieux petits déjeuners et mets africains
             </p>
-            <p className="text-sm sm:text-base md:text-lg text-white/90 mb-8 sm:mb-10 md:mb-12 drop-shadow-md">
+            <p className="text-sm sm:text-base md:text-lg text-white/90 mb-4 sm:mb-6 drop-shadow-md">
               À Cotonou, Bénin
+            </p>
+            <p className="text-base sm:text-lg md:text-xl text-white/95 mb-8 sm:mb-10 md:mb-12 drop-shadow-md font-medium">
+              Originalité 😍, Exclusivité 🥳, Élégance 🥺
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4">
               <Link href="/menu" className="w-full sm:w-auto btn-primary bg-white text-primary-600 hover:bg-gray-100 border-white text-sm sm:text-base px-4 sm:px-6 py-2.5 sm:py-3">
